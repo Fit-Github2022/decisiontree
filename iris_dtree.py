@@ -21,3 +21,6 @@ st.write(a)
 fig=plt.figure(figsize=(10,4))
 tree.plot_tree(clf.fit(X_train, y_train))
 st.pyplot(fig)
+
+b=clf.score(X_test, y_test)
+st.write(b)
