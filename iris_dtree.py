@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 
-iris = load_iris
+iris = load_iris()
 (X_iris, y_iris) = load_iris(return_X_y = True)
 X_train, X_test, y_train, y_test = train_test_split(X_iris, y_iris, random_state = 0)
 
