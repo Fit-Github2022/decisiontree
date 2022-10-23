@@ -18,7 +18,6 @@ clf = clf.fit(X_train, y_train)
 a=clf.fit(X_train, y_train)
 st.write(a)
 
-iris = sns.load_dataset('iris')
 fig=plt.figure(figsize=(10,4))
 tree.plot_tree(clf.fit(X_train, y_train))
 st.pyplot(fig)
